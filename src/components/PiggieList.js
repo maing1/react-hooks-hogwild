@@ -3,7 +3,7 @@ import PiggieCard from './PiggieCard'
 
 function PiggieList({ hogs }) {
   return (
-		<div className="ui two stackable cards">
+		<div className="ui three stackable cards">
 			{hogs.map(hog => (
 				<PiggieCard
 					key={hog.name}

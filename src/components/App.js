@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Nav from "./Nav";
 import Filter from "./Filter";
 import PiggieList from "./PiggieList";
+import AddForm from "./AddForm";
 
 import hogs from "../porkers_data";
 
@@ -34,6 +35,9 @@ function App() {
       </div>
       <div className="sixteen wide column centered">
         <PiggieList hogs={hogsToDisplay} />
+      </div>
+      <div>
+        <AddForm/>
       </div>
     </div>
   );
